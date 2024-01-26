@@ -1,20 +1,11 @@
-/* .row {
-    margin-bottom: 1rem;
-} */
- 
-body {
-    /* padding-top: 2rem;
-    padding-bottom: 2rem; */
-  }
-    
-.row {
-    /* margin-top: 1rem; */
-    /* margin-bottom: 0; */
-}
 [class*="col-"] {
-    /* padding-top: 0.3rem;
-    padding-bottom: 0.5rem; */
     padding-bottom: 2%;
+}
+
+.logo {
+    max-height: 100%;
+    padding-right:10%;
+    padding-bottom:15%;
 }
 
 .slogan {
@@ -24,6 +15,13 @@ body {
     font-style: italic;
     font-family: "Lucida Handwriting";
     padding-bottom:1%;
+}
+
+img {
+    max-height:100%; 
+    max-width:100%;
+    border-radius: 20%;
+    padding: 5% 0% 5% 5%;
 }
 
 h2 {
@@ -39,23 +37,18 @@ h3 {
     font-style: bold;
     padding-top: 5%;
 }
-.cost {
-    font-size:small;
-    font-style:normal;
-    padding-bottom: 5%;
-}
+
 h4 {
     color:gray;
     font-size: small;
     text-align: left;
     font-weight: 400;
 }
-img {
-    max-height:100%; 
-    max-width:100%;
-    border-radius: 20%;
-    padding: 5% 0% 5% 5%;
-    /* float: right; */
+
+.cost {
+    font-size:small;
+    font-style:normal;
+    padding-bottom: 5%;
 }
 
 button {
@@ -66,10 +59,4 @@ button {
     border-color: gray;
     border-style: solid;
     box-shadow: 0 2px rgb(188, 185, 185);
-}
-
-.logo {
-    max-height: 100%;
-    padding-right:10%;
-    padding-bottom:15%;
 }
